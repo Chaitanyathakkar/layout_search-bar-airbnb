@@ -45,7 +45,7 @@
   width: 19px;
   height: 19px;
   background-image: url("../images/Search.svg");
-  background-size: contain;
+  background-size: 19px 19px;
   background-repeat: no-repeat;
   flex-shrink: 0;
 }
@@ -64,4 +64,10 @@
 
 .search-form__input::placeholder {
   color: #687c94;
+}
+
+.search-form__label_small::before {
+  width: 11px;
+  height: 11px;
+  background-size: 11px 11px;
 }
