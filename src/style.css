@@ -14,6 +14,10 @@
   font-display: block;
 }
 
+html {
+  overflow-y: scroll;
+}
+
 body {
   box-sizing: border-box;
   font-family: Avenir, sans-serif;
